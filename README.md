@@ -22,16 +22,16 @@ In case an exact match is not found, a list of up to 10 recommendations is provi
 #### Title Not Found:
 <table>
     <thead>
-        <tr><th rowspan=3>Input</th><th colspan=3>Output</th></tr>
-        <tr><th colspan=3>Recommendations</th></tr>
+        <tr><th rowspan=2>Input</th><th colspan=3>Output (Recommendations)</th></tr>
         <tr><th>#</th><th>Names</th><th>Keyword matches</th></tr>
     </thead>
     <tbody>
-        <tr><td rowspan=5>Boxer</td><td>1</td><td>Like It Is</td><td>2</td></tr>
-        <tr></td><td>2</td><td>The Big Timer</td><td>1</td><</tr>
-        <tr></td><td>3</td><td>Fat City</td><td>1</td></tr>
-        <tr></td><td>...</td><td>...</td><td>...</td></tr>
-        <tr></td><td>10</td>><td>Les misérables</td><td>1</td</tr>
+        <tr><td rowspan=6>Boxer</td></tr>
+        <tr><td>1</td><td>Like It Is</td><td>2</td></tr>
+        <tr><td>2</td><td>The Big Timer</td><td>1</td></tr>
+        <tr><td>3</td><td>Fat City</td><td>1</td></tr>
+        <tr><td>...</td><td>...</td><td>...</td></tr>
+        <tr><td>10</td><td>Les misérables</td><td>1</td></tr>
    </tbody>
 </table>
 
@@ -58,6 +58,10 @@ _**AppTest**_ class provides tests to prove basic underlying functionality there
 2. **keywords.csv** - Provides various associated keywords for each of the movie. All keywords associated with entered title are matched and the corresponding movie id's are obtained.
 > These files are not attached in the repository due to their large size.
 
-# Cosole Output
+# Console Output
+#### Title Found (returned credits):
+![Image](/MovieBuff_match.png?raw=true)
 
+#### Title Not Found (returned recommendations):
+![Image](/MovieBuff_nomatch.png?raw=true)
 
