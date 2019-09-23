@@ -51,6 +51,7 @@ _**AppTest**_ class provides tests to prove basic underlying functionality there
 1. sbt: org.scala-lang:scala-reflect:2.11:7.jar
 1. sbt: org.scalatest:scalatest_2.11:2.2.6.jar
 1. sbt: sbt-and-plugins
+> Note: For application to work successfully, these files must be placed under: _**MovieBuff/src/main/resources/**_
 
 # CSV Data Files
 1. **movies_metadata.csv** - Provides metadata for over 450000 movies. Used to obtain movie id by looking up movie title.
