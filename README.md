@@ -41,8 +41,8 @@ In case an exact match is not found, a list of up to 10 recommendations is provi
 1. **MoviesCSVReader** - Implements the functionality of reading/parsing cvs files and performing functional logic.
 
 # Unit Tests
-Scalatest library is used which provided "Funsuite" framework for easy unit testing Scala application.
-_**AppTest**_ class provides tests to prove basic underlying functionality thereby testing each single unit that reads/and parses various cvs files.
+Scalatest library has been used for unit testing the modules. It provides an easy framework called "Funsuite" to simplify testing Scala applications.</br>
+The _**AppTest**_ class provides tests to prove basic underlying functionality thereby testing each single unit that reads/and parses various cvs files.
 > Test cases are limited for now and more should be added to perform thorough test coverage.
 
 # Dependencies
@@ -51,13 +51,13 @@ _**AppTest**_ class provides tests to prove basic underlying functionality there
 1. sbt: org.scala-lang:scala-reflect:2.11:7.jar
 1. sbt: org.scalatest:scalatest_2.11:2.2.6.jar
 1. sbt: sbt-and-plugins
-> Note: For application to work successfully, these files must be placed under: _**MovieBuff/src/main/resources/**_
 
 # CSV Data Files
 1. **movies_metadata.csv** - Provides metadata for over 450000 movies. Used to obtain movie id by looking up movie title.
 1. **credits.csv** - Provides cast and crew information for all movies. Movie Id is used for lookup.
 2. **keywords.csv** - Provides various associated keywords for each of the movie. All keywords associated with entered title are matched and the corresponding movie id's are obtained.
-> These files are not attached in the repository due to their large size.
+> **Note:** For application to work successfully, these files must be placed under: _**MovieBuff/src/main/resources/**_ </br>
+These files are not attached in the repository due to their large size.
 
 # Console Output
 #### Title Found (returned credits):
